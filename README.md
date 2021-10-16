@@ -56,5 +56,6 @@
 
 ## 4. 后续版本更新计划
 
-1. 添加对React typescript Hooks版本的支持
-2. 添加对Express Koa的支持
+1. 发布到npm
+2. 添加对React typescript Hooks版本的支持
+3. 添加对Express Koa的支持
