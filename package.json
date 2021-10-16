@@ -1,0 +1,24 @@
+{
+  "name": "codewolf_cli",
+  "version": "0.1.1",
+  "description": "cli tools",
+  "main": "index.ts",
+  "bin": {
+    "wolf": "index.ts"
+  },
+  "scripts": {
+    "test": "ts-node index.ts",
+    "version": "ts-node index.ts --version",
+    "help": "ts-node index.ts --help"
+  },
+  "keywords": [],
+  "author": "even lee",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.3",
+    "commander": "^8.2.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "open": "^8.3.0"
+  }
+}
