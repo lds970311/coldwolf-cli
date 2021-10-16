@@ -1,6 +1,6 @@
 {
   "name": "codewolf_cli",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "cli tools",
   "main": "index.ts",
   "bin": {
