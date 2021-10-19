@@ -1,7 +1,7 @@
 const fs2 = require("fs")
 const path2 = require("path");
-const writeFile1 = require("../utils/WriteFile");
-const compiler1 = require("../utils/Compiler");
+const writeFile1 = require("../../utils/WriteFile");
+const compiler1 = require("../../utils/Compiler");
 
 // @ts-ignore
 const addVuePageAction = async (name: string, destination: string | undefined): Promise<void> => {

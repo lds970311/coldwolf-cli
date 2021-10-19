@@ -1,7 +1,7 @@
 const fs3 = require("fs")
 const path3 = require("path");
-const writeFile2 = require("../utils/WriteFile");
-const compiler2 = require("../utils/Compiler");
+const writeFile2 = require("../../utils/WriteFile");
+const compiler2 = require("../../utils/Compiler");
 
 //@ts-ignore
 const addVueStoreAction = async (name: string, destPath: string) => {

@@ -1,12 +1,12 @@
 // @ts-ignore
 const program = require('commander')
-const createProgram = require('../actions/CreateProjectAction')
+const createProgram = require('../actions/VueActions/CreateProjectAction')
 // @ts-ignore
-const {addVueComponentAction} = require('../actions/AddComponentAction');
+const {addVueComponentAction} = require('../actions/VueActions/AddComponentAction');
 // @ts-ignore
-const {addVuePageAction} = require("../actions/AddPageAction");
+const {addVuePageAction} = require("../actions/VueActions/AddPageAction");
 //@ts-ignore
-const {addVueStoreAction} = require("../actions/AddStoreAction");
+const {addVueStoreAction} = require("../actions/VueActions/AddStoreAction");
 /**
  *  创建工程
  */

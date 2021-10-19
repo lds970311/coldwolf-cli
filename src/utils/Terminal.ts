@@ -5,9 +5,9 @@
 const {exec, spawn} = require("child_process")
 
 // @ts-ignore
-const commandSpawn = function (): Promise<string | any> {
+const commandSpawn = function (...args): Promise<string | any> {
     return new Promise<string>((resolve, reject) => {
-        const childProcess = spawn(...arguments)
+        const childProcess = spawn(args)
         //显示打印信息
         childProcess.stdout.pipe(process.stdout)
         childProcess.stderr.pipe(process.stderr)

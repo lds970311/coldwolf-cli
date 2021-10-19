@@ -1,6 +1,6 @@
-const compiler = require("../utils/Compiler");
+const compiler = require("../../utils/Compiler");
 // @ts-ignore
-const writeFile = require("../utils/WriteFile");
+const writeFile = require("../../utils/WriteFile");
 // @ts-ignore
 const path1 = require("path")
 

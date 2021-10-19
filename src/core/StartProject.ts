@@ -1,7 +1,7 @@
 // @ts-ignore
 const program = require('commander')
 // @ts-ignore
-const startProjectAction = require("../actions/StartProjectAction");
+const startProjectAction = require("../actions/VueActions/StartProjectAction");
 
 // @ts-ignore
 const startProject = async function () {

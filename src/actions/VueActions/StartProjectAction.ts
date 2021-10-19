@@ -1,5 +1,5 @@
 // @ts-ignore
-const {commandSpawn} = require("../utils/Terminal")
+const {commandSpawn} = require("../../utils/Terminal")
 
 // @ts-ignore
 const startProjectAction = async (project: string) => {

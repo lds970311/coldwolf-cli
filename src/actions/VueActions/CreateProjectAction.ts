@@ -3,9 +3,9 @@ const download = promisify(require("download-git-repo"))
 // @ts-ignore
 const open = require("open")
 // @ts-ignore
-let {vueRepo} = require("../config/repo.config")
+let {vueRepo} = require("../../config/repo.config")
 // @ts-ignore
-const {commandSpawn} = require("../utils/Terminal")
+const {commandSpawn} = require("../../utils/Terminal")
 
 /**
  * 创建工程Action
