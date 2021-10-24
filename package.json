@@ -11,9 +11,21 @@
     "version": "ts-node index.ts --version",
     "help": "ts-node index.ts --help"
   },
-  "keywords": [],
+  "keywords": [
+    "wolf",
+    "codewolf",
+    "frontend cli",
+    "evan lee",
+    "codewolf cli",
+    "wolf cli"
+  ],
   "author": "even lee",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/lds970311/coldwolf-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lds970311/coldwolf-cli"
+  },
   "dependencies": {
     "@types/node": "^16.10.3",
     "commander": "^8.2.0",

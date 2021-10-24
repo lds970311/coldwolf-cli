@@ -19,10 +19,11 @@
 
 ### 2.2 安装操作
 
-1. 从github上下载源码
-2. 进入项目根目录
-3. 执行 `npm link`
-4. 测试, 输入 `wolf`, 出现下图, 则安装成功
+1. ~~从github上下载源码~~
+2. `npm i codewolf_cli`
+3. 进入项目根目录
+4. 执行 `npm link`
+5. 测试, 输入 `wolf`, 出现下图, 则安装成功
 
 ![img.png](imgs/img5.png)
 
@@ -56,6 +57,10 @@
 
 ## 4. 后续版本更新计划
 
-1. 发布到npm
+1. 发布到npm(√)
 2. 添加对React typescript Hooks版本的支持
 3. 添加对Express Koa的支持
+
+## 5. 版本更新
+
+- 2021-10-24已发布npm
